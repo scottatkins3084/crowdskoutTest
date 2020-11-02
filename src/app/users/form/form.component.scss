@@ -1,0 +1,28 @@
+.form-wrapper{
+  margin: 10px;
+
+  input[type=text]{
+    width: 90%;
+    background-color: #e8e8e8;
+  }
+
+  input{
+    margin-bottom: 10px;
+  }
+
+  input[type=button]{
+    margin-left: 5px;
+    background-color: #fb6a6a;;
+    color: #fff;
+  }
+
+  input[type=submit]{
+    background-color: #5fb55f;;
+    color: #fff;
+  }
+
+  .category{
+    font-size: 20px;
+    text-decoration: underline;
+  }
+}

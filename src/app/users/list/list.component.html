@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <a class="add-new" routerLink="/user">Add New +</a>
+  <div class="list-wrapper">
+    <div class="cards" *ngFor="let card of userList$ | async">
+      <app-cards [card]="card"></app-cards>
+    </div>
+  </div>
+</div>

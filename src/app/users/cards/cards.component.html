@@ -1,0 +1,19 @@
+<div class="card-wrapper">
+  <div class="buttons">
+    <button class="edit" (click)="editCard(card.id)">Edit</button>
+    <button class="delete" (click)="deleteCard(card.id)">Delete</button>
+  </div>
+  <p>{{card.name}} ({{card.username}})</p>
+  <p>{{card.email}}</p>
+  <p>{{card.phone}}</p>
+  <p>{{card.website}}</p>
+  <h1>Address</h1>
+  <p>{{card.address.street}}</p>
+  <p>{{card.address.suite}}</p>
+  <p>{{card.address.city}}</p>
+  <p>{{card.address.zipcode}}</p>
+  <h1>Company</h1>
+  <p>{{card.company.name}}</p>
+  <p>(Catch Phrase) {{card.company.catchPhrase}}</p>
+  <p>(B.S) {{card.company.bs}}</p>
+</div>

@@ -1,0 +1,36 @@
+<div class="form-wrapper">
+  <form (ngSubmit)="submit()">
+    <label>Name</label><br>
+    <input type="text" [(ngModel)]="person.name" name="name" placeholder="Name"><br>
+    <label>Username</label><br>
+    <input type="text" [(ngModel)]="person.username" name="username" placeholder="Username"><br>
+    <label>Email</label><br>
+    <input type="text" [(ngModel)]="person.email" name="email" placeholder="Email"><br>
+    <label>Phone</label><br>
+    <input type="text" [(ngModel)]="person.phone" name="phone" placeholder="Phone"><br>
+    <label>Website</label><br>
+    <input type="text" [(ngModel)]="person.website" name="website" placeholder="Website"><br>
+    <label class="category">Address</label><br>
+    <label>Street</label><br>
+    <input type="text" [(ngModel)]="person.address.street" name="street" placeholder="Street"><br>
+    <label>Suite</label><br>
+    <input type="text" [(ngModel)]="person.address.suite" name="suite" placeholder="Suite"><br>
+    <label>City</label><br>
+    <input type="text" [(ngModel)]="person.address.city" name="city" placeholder="City"><br>
+    <label>Postal Code</label><br>
+    <input type="text" [(ngModel)]="person.address.zipcode" name="zipcode" placeholder="Postal Code"><br>
+    <label>Latitude</label><br>
+    <input type="text" [(ngModel)]="person.address.geo.lat" name="lat" placeholder="Latitude"><br>
+    <label>Longitude</label><br>
+    <input type="text" [(ngModel)]="person.address.geo.lng" name="lng" placeholder="Longitude"><br>
+    <label class="category">Company</label><br>
+    <label>Company Name</label><br>
+    <input type="text" [(ngModel)]="person.company.name" name="company" placeholder="Company Name"><br>
+    <label>Catch Phrase</label><br>
+    <input type="text" [(ngModel)]="person.company.catchPhrase" name="catchPhrase" placeholder="Catch Phrase"><br>
+    <label>B.S</label><br>
+    <input type="text" [(ngModel)]="person.company.bs" name="bs" placeholder="B.S"><br>
+    <input type="submit">
+    <input type="button" value="Back" (click)="BackHome()">
+  </form>
+</div>

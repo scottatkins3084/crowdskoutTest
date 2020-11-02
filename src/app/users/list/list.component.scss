@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 20px;
+
+  .add-new {
+    background-color: #5fb55f;;
+    color: white;
+    margin-right: 10px;
+    padding: 10px 8px;
+    text-decoration: none;
+  }
+
+  .list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .cards {
+      border: 1px solid #000;
+      margin: 30px 5px 5px 0px;
+    }
+  }
+}

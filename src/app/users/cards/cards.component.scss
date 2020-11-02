@@ -1,0 +1,28 @@
+.card-wrapper{
+  padding: 10px;
+  width: 250px;
+
+  .buttons{
+    position: relative;
+    text-align: right;
+
+    .edit{
+      background-color: #d2b8ff;
+    }
+    .delete{
+      background-color: #fb6a6a;
+      margin-left: 5px;
+    }
+  }
+
+  p{
+    margin-bottom: 0;
+  }
+
+  h1{
+    font-size: 20px;
+    color: #565656;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid gainsboro;
+  }
+}
